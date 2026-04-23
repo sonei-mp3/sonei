@@ -1,61 +1,80 @@
-.navbar {
-    
-    list-style-type: none;
-    text-align: center;
-}
-
-.navbar li {
-    display: inline;
-    padding: 5%;
-    margin: auto;
-}
-
-.title {
-    text-align: center;
-}
-
-.headinggr {
-    grid-area: header;
-    border: 5px solid rgb(38, 99, 26);
-    
-}
-
-.contentgr {
-    grid-area: content;
-    padding: 5px;
-    border: 5px solid rgb(38, 99, 26);
-}
-
-.sidebargr {
-    padding: 5px;
-    grid-area: menu;
-    border: 5px solid rgb(38, 99, 26);
-}
-
-.content {
-    border: 5px solid rgb(38, 99, 26);
-    padding: 5px;
-}
-
-.containergr {
-    display: grid;
-    grid-template-areas: "header header" "menu content" "footer footer";
-    grid-template-columns: 1fr 3fr;
-    gap: 3px;
-    padding: 10px;
-}
-
-.container {
-    width: auto;
-}
-
-.bottombargr {
-    grid-area: footer;
-    padding: 5px;
-    border: 5px solid rgb(38, 99, 26);
+body{
+    margin: 0;
 }
 
 .heading {
-    border: 5px solid rgb(38, 99, 26);
-    margin-bottom: 3px;
+    text-align: center;
+    margin: auto;
+    font-size: 38px;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    font-size: larger;
+    display: inline;
+    list-style-type: none;
+    margin: 5%;
+    padding: 0;
+}
+.content li{
+    list-style-type: none;
+}
+.cont{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 5px solid;
+    border-color: gray black black gray;
+    background-color: #caccca;
+}
+.content{
+    border-radius: 0%;
+    margin: 5%;
+    margin-top: 3%;
+}
+
+.lcolumn {
+  float: left;
+  margin-left: 5%;
+  width: 40%;
+}
+
+.rcolumn {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.floatelement{
+    float: left;
+    margin: 0;
+}
+
+.animated-bg {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #90d47f, #66c7d6);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite; /* Applies infinite animation */
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
