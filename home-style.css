@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Barecast';
+  src: url('Barecast-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+body{
+    margin: 0;
+    font-family: 'Barecast', sans-serif;
+    color: rgb(65, 53, 40);
+    background-image: url("pixil-frame-1(1).gif"), url(pixil-gif-drawing.gif), url(cloud2.png);
+    background-size: 20%, 10%;
+}
+
+.heading {
+    text-align: center;
+    margin: auto;
+    font-size: 38px;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    font-size: larger;
+    display: inline;
+    list-style-type: none;
+    margin: 5%;
+    padding: 0;
+}
+.content li{
+    list-style-type: none;
+}
+.cont{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 5px solid;
+    border-color: rgb(145, 158, 232) #3244a6 #282672 rgb(178, 180, 248);
+    background-color: #fcfdff;
+}
+.content{
+    border-radius: 0%;
+    margin: 5%;
+    margin-top: 3%;
+}
+
+.lcolumn {
+  float: left;
+  margin-left: 5%;
+  width: 40%;
+}
+
+.rcolumn {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.floatelement{
+    float: left;
+    margin: 0;
+}
+
