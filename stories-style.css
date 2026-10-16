@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Barecast';
+  src: url('Barecast-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+.storybox{
+    margin: 5%;
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+    border: 5px solid black;
+}
+.storylabel{
+    font-size: 125%;
+    padding: 1%;
+    margin: 5%;
+    margin-top: -1%;
+    border: 5px solid black;
+}
+.imageboxhalf{
+    width: 40%;
+    margin: none;
+    height: auto;
+    border: 5px solid black;
+    display: inline-block;
+}
+
+body{
+    margin: 0;
+    font-family: 'Barecast', sans-serif;
+    color: rgb(65, 53, 40);
+    background-image: url("white-square-background-6qt2ycw4rzria6b4-598440207.jpg");
+    background-size: 70%;
+}
+
+.heading {
+    text-align: center;
+    margin: auto;
+    font-size: 38px;
+    margin-bottom: 1%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    font-size: larger;
+    display: inline;
+    list-style-type: none;
+    margin: 5%;
+    padding: 0;
+}
+
+.cont{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 5px solid;
+    border-color: rgb(102, 72, 40) #483921 #483921 rgb(102, 72, 40);
+    background-color: #f6efec;
+}
